@@ -1,0 +1,8 @@
+  {this.state.isLoading === 1? <Card className="card" style={{ width: '18rem' }}>
+                    <p>Location: {this.state.info.location}</p>
+                    <p>public_repos: {this.state.info.public_repos}</p>
+
+                    <p>Image: <img src={this.state.info.avatar_url} /></p>
+                     </Card>:this.state.isLoading === 0 ?"Loading":null} */}
+                    {/* <p>Location: {this.state.info.location}</p>
+                    <p>public_repos: {this.state.info.public_repos}</p>
